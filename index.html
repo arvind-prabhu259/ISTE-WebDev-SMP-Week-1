@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AP Coding Camp</title>
+</head>
+<body>
+    <h1>Registration</h1>
+    <h3>
+        Fill this form
+    </h3>
+    <p>Your data is <b><em>definitely</em></b> safe with us :P</p>
+    <form action="#">
+
+        <fieldset>
+            <legend>
+                Personal information:
+            </legend><br>
+            <label>
+                Username:
+                <input type = "text" name="name" size="30" maxlength="100">
+            </label>
+            <br><br>
+            <label>
+                Password:
+                <input type = "password" name="password" size="30" maxlength="100">
+            </label>
+            <br><br>
+            <label>
+                Email address:
+                <input type = "email" name="email" size="30" maxlength="100">
+            </label>
+            <br><br>
+            <label>
+                Date of Birth:
+                <input type = "date" name="dob" size="30" maxlength="100">
+            </label>
+            <br><br>
+            <label>
+                Phone number:
+                <input type = "tel" name="phone">
+            </label>
+            <br><br>
+            <input type="hidden" id="member_no" name="member_no" value="123456">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>
+                Goals
+            </legend><br>
+            <label>
+                What level of difficulty do you wish to attempt?
+                <br>
+                Basic
+                <input type = "radio" name="rating" value="basic">
+                <br>
+                Intermediate
+                <input type = "radio" name="rating" value="intermediate">
+                <br>
+                Advanced
+                <input type = "radio" name="rating" value="advanced">
+                <br>
+            </label>
+            <br><br>
+            <label>
+                Which programming languages are you familiar with?
+                <br>
+                <input type="checkbox" id="java" name="knownlanguages" value="Java">
+                <label for="java">Java</label>
+                <br>
+                <input type="checkbox" id="python" name="knownlanguages" value="Python">
+                <label for="python">Python</label>
+                <br>
+                <input type="checkbox" id="C" name="knownlanguages" value="C">
+                <label for="C">C</label>
+                <br>
+                <input type="checkbox" id="C++" name="knownlanguages" value="C++">
+                <label for="C++">C++</label>
+                <br>
+                <input type="checkbox" id="C#" name="knownlanguages" value="C#">
+                <label for="C#">C#</label>
+                <br>
+
+            </label>
+            <br><br>
+        </fieldset>
+
+        
+    </form>
+</body>
+</html>
